@@ -1,11 +1,15 @@
 <template>
   <div class="projects">
+    <h2>Projects</h2>
     <div
       v-for="project of projects"
       :key="project.slug"
       class="project">
       <router-link :to="getLink(project)">
-        {{ project.name }}
+        <img
+          :src="project.thumbnail"
+          :alt="project.name">
+        <h3>{{ project.name }}</h3>
       </router-link>
     </div>
   </div>
