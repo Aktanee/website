@@ -1,6 +1,9 @@
 <template>
   <div class="projects">
-    <div class="project" :key="project.slug" v-for="project of projects">
+    <div
+      v-for="project of projects"
+      :key="project.slug"
+      class="project">
       <router-link :to="getLink(project)">
         {{ project.name }}
       </router-link>
@@ -10,19 +13,19 @@
 
 <script>
 export default {
-  name: 'Projects',
+  name: "Projects",
   props: {
     projects: {
       type: Array,
       default() {
-        return []
+        return [];
       }
     }
   },
   methods: {
     getLink({ slug }) {
-      return `/projects/${slug}`
+      return `/projects/${slug}`;
     }
   }
-}
+};
 </script>

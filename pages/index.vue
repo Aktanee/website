@@ -2,17 +2,18 @@
   <section class="container index">
     <headerComponent/>
     <projects :projects="projectsData"/>
+    <Header/>
   </section>
 </template>
 
 <script>
-import header from '@/components/header.vue'
-import projects from '@/components/projects.vue'
-import data from '@/services/projects';
+import header from '@/components/header'
+import projects from '@/components/projects'
+import data from '@/services/projects'
 
 export default {
-  asyncData(ctx, callback) {
-    callback(null, { projectsData: data });
+  asyncData(context, callback) {
+    callback(null, { projectsData: data })
   },
   components: {
     headerComponent: header,
