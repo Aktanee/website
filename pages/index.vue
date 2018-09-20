@@ -1,26 +1,19 @@
 <template>
-  <section class="container">
-    <div>
-      <h1 class="title">
-        website
-      </h1>
-      <h2 class="subtitle">
-        Antoine Renault portfolio
-      </h2>
-
-      <nuxt-link to="/about">About</nuxt-link>
-    </div>
+  <section class="container index">
+    <headerComponent/>
+    <projects/>
   </section>
 </template>
 
 <script>
+import header from '@/components/header.vue'
+import projects from '@/components/projects.vue'
 
 export default {
-  components: {}
+  components: {
+    headerComponent: header,
+    projects
+  }
 }
 </script>
-
-<style>
-
-</style>
 
