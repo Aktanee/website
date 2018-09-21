@@ -20,6 +20,6 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
-    "prettier/prettier": false
+    "prettier/semi": false
   }
 }
