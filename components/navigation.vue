@@ -6,7 +6,9 @@
       </div>
       <div class="right">
         <router-link to="/about">About</router-link>
-        <router-link to="/contact">Contact</router-link>
+        <a
+          href="mailto:antoine.renault.mmi@gmail.com"
+          class="email">antoine.renault.mmi@gmail.com</a>
       </div>
     </nav>
   </div>
@@ -19,9 +21,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/scss/variables.scss";
+
 .navigation {
   overflow: auto;
-  margin: 0 0 20px 0;
+  margin: 0 0 80px 0;
 }
 
 nav {
@@ -40,7 +44,13 @@ nav {
 a {
   margin: 0 10px 0 0;
   text-decoration: none;
-  color: black;
+}
+
+a.email {
+  color: darkgrey;
+
+  &:hover {
+    color: $mainColor;
+  }
 }
 </style>
-

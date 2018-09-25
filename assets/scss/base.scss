@@ -1,3 +1,17 @@
 @import "variables.scss";
 @import "site.scss";
 @import "layout.scss";
+
+a {
+  color: black;
+  transition: color .3s ease;
+
+  &:hover {
+    color: $mainColor;
+  }
+
+  &.nuxt-link-active {
+    color: $mainColor;
+  }
+
+}

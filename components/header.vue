@@ -11,3 +11,9 @@ export default {
   name: "Header"
 };
 </script>
+
+<style lang="scss" scoped>
+.header {
+  margin: 20px 0 80px;
+}
+</style>

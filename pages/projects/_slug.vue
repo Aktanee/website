@@ -1,10 +1,9 @@
 <template>
   <div class="project">
-
     <div class="left-panel">
       <div class="info-single">
         <div class="content">{{ project.name }}</div>
-        <div class="label">{{ project.client }}</div>
+        <div class="label client">{{ project.client }}</div>
       </div>
 
       <div class="info-single">
@@ -87,6 +86,7 @@ import data from "@/services/projects";
 
 export default {
   name: "Project",
+  scrollToTop: true,
   asyncData({ params, redirect }, callback) {
     const project = data.find(project => project.slug === params.slug);
 
@@ -116,6 +116,10 @@ export default {
   img {
     width: 100%;
   }
+}
+
+.client {
+  font-size: 0.9em;
 }
 
 @media (max-width: 800px) {
