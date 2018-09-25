@@ -1,11 +1,13 @@
 <template>
   <div class="header">
-    Header
+    <p>
+      Fan of simplicity and modularity. Research optimization of process automation and improvement of my knowledge.
+    </p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Header'
-}
+  name: "Header"
+};
 </script>
