@@ -26,6 +26,11 @@
                 Github
               </a>
             </p>
+            <p>
+              <a href="https://www.linkedin.com/in/antoine-renault-a84b6398/">
+                LinkedIn
+              </a>
+            </p>
           </div>
         </div>
       </div>
@@ -67,13 +72,18 @@
 
 .copyright {
   text-align: center;
-  font-size: 0.7em;
+  font-size: 0.8em;
+  margin: 60px 0 0 0;
+}
+
+.menu {
+  overflow: auto;
   margin: 60px 0 0 0;
 }
 
 .menu-item {
-  display: inline-block;
-  margin: 60px 40px 0 0;
+  margin: 0 40px 0 0;
+  float: left;
 
   .title {
     color: white;

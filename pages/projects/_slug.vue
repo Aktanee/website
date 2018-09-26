@@ -84,7 +84,18 @@ export default {
       redirect("/");
     }
   },
-  methods: {}
+  head() {
+    return {
+      title: `${this.project.name} | Project`,
+      meta: [
+        {
+          hid: "description",
+          name: this.project.slug,
+          content: this.project.description
+        }
+      ]
+    };
+  }
 };
 </script>
 
