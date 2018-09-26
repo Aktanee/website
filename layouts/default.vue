@@ -1,7 +1,9 @@
 <template>
-  <div class="site">
-    <navigation/>
-    <nuxt/>
+  <div>
+    <div class="site">
+      <navigation/>
+      <nuxt/>
+    </div>
     <footerComponent/>
   </div>
 </template>

@@ -1,6 +1,13 @@
 <template>
   <div class="navigation">
     <nav>
+      <nuxt-link to="/">
+        <div class="logo">
+          <div class="name">Antoine Renault</div>
+          <div class="job-title">Fullstack developper</div>
+        </div>
+      </nuxt-link>
+
       <div class="left">
         <router-link to="/">Home</router-link>
       </div>
@@ -25,7 +32,23 @@ export default {
 
 .navigation {
   overflow: auto;
-  margin: 0 0 80px 0;
+  padding: 0 0 80px 0;
+  margin: 0 0 10px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 0;
+  font-size: 0.9em;
+
+  .job-title {
+    color: darkgrey;
+  }
+
+  .name {
+    margin: 0 0 -6px;
+  }
 }
 
 nav {
@@ -41,9 +64,12 @@ nav {
   text-align: right;
 }
 
-a {
-  margin: 0 10px 0 0;
-  text-decoration: none;
+.left,
+.right {
+  a {
+    margin: 0 10px 0 0;
+    text-decoration: none;
+  }
 }
 
 a.email {

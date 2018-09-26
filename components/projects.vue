@@ -1,6 +1,6 @@
 <template>
   <div class="projects-container">
-    <h2>My Open Source Projects</h2>
+    <!-- <h2>My Open Source Projects</h2> -->
     <div class="projects">
       <div
         v-for="project of projects"
