@@ -1,5 +1,31 @@
 export default [
   {
+    name: "Entourage",
+    slug: "entourage",
+    description:
+      "This website that annexes web agency and freelance around France to help them be available. Including smart research and good portfolio gallery.",
+    thumbnail: "/images/entourage.png",
+    images: [
+      {
+        url: "/images/entourage-2.png",
+        subtitle: ""
+      },
+      {
+        url: "/images/entourage-3.png",
+        subtitle: ""
+      }
+    ],
+    year: "2018",
+    client: "Orson.io",
+    links: [
+      {
+        url: "https://entourage.orson.io/",
+        name: "Online"
+      }
+    ],
+    missions: ["Frontend Development", "Backend Development", "DevOps"]
+  },
+  {
     name: "Mashup Template",
     slug: "mashup-template",
     description:
@@ -16,7 +42,6 @@ export default [
       }
     ],
     year: "2017",
-    technologies: ["Static"],
     client: "Orson.io",
     links: [
       {
@@ -29,16 +54,17 @@ export default [
       }
     ],
     missions: [
-      "Frontend Development",
-      "Backend Development",
+      "Frontend development",
+      "Backend development",
       "DevOps",
-      "Development Environment"
+      "Development environment"
     ]
   },
   {
     name: "Le top 100",
     slug: "le-top-100",
-    description: "Template de haute qualité",
+    description:
+      "Boilerplate web application allowing the creation of a list of votable advice.",
     thumbnail: "/images/le-top-100-thumbnail.jpg",
     images: [
       {
@@ -51,7 +77,6 @@ export default [
       }
     ],
     year: "2017 - 2018",
-    technologies: ["Vue"],
     client: "Orson.io / Les Echos",
     links: [
       {
@@ -63,7 +88,7 @@ export default [
         name: "Le top 100 Digital"
       }
     ],
-    missions: ["Frontend Development", "Backend Development "]
+    missions: ["Frontend Development", "Backend Development"]
   },
   {
     name: "Bootstrap Magic",
@@ -82,7 +107,6 @@ export default [
       }
     ],
     year: "2017",
-    technologies: ["Bootstrap", "Angular"],
     client: "Orson.io",
     links: [
       {
@@ -99,27 +123,5 @@ export default [
       }
     ],
     missions: ["Frontend Development", "Backend Development", "DevOps"]
-  },
-  {
-    name: "Entourage",
-    slug: "entourage",
-    description: "Template de haute qualité",
-    thumbnail: "/images/entourage.png",
-    images: [
-      {
-        url: "/images/entourage.png",
-        subtitle: ""
-      }
-    ],
-    year: "2018",
-    technologies: ["Vue"],
-    client: "Orson.io",
-    links: [
-      {
-        url: "https://entourage.orson.io/",
-        name: "Online"
-      }
-    ],
-    missions: ["Frontend Development", "Backend Development "]
   }
 ];

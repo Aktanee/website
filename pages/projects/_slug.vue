@@ -28,18 +28,6 @@
       </div>
 
       <div class="info-multiple">
-        <div class="label">Technologies</div>
-        <div class="contents">
-          <div
-            v-for="(content, index) of project.technologies"
-            :key="index"
-            class="content">
-            {{ content }}
-          </div>
-        </div>
-      </div>
-
-      <div class="info-multiple">
         <div class="label">Missions</div>
         <div class="contents">
           <div
