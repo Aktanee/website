@@ -7,9 +7,10 @@
         :key="project.slug"
         class="project">
         <router-link :to="getLink(project)">
-          <img
-            :src="project.thumbnail"
-            :alt="project.name">
+          <div
+            :style="getThumbnail(project)"
+            class="thumbnail"
+          />
           <h3>{{ project.name }}</h3>
         </router-link>
       </div>
@@ -31,6 +32,9 @@ export default {
   methods: {
     getLink({ slug }) {
       return `/projects/${slug}`;
+    },
+    getThumbnail({ thumbnail }) {
+      return `background-image: url('${thumbnail}')`;
     }
   }
 };
@@ -43,21 +47,31 @@ export default {
   flex-flow: row wrap;
 }
 
+h2 {
+  margin: 0 0 40px;
+}
+
 .project {
   width: calc(50% - 20px);
   margin-bottom: 20px;
 
-  &:nth-child(2n+1) {
-     margin-right: 10px;
+  &:nth-child(2n + 1) {
+    margin-right: 10px;
   }
 
   &:nth-child(2n) {
     background: green($color: #000000);
-     margin-left: 10px;
+    margin-left: 10px;
   }
 
   img {
     width: 100%;
+  }
+
+  .thumbnail {
+    min-height: 300px;
+    background-size: cover;
+    background-position: left top;
   }
 }
 </style>
