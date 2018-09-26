@@ -8,11 +8,8 @@
         </div>
       </nuxt-link>
 
-      <div class="left">
-        <router-link to="/">Home</router-link>
-      </div>
       <div class="right">
-        <router-link to="/about">About</router-link>
+        <router-link to="/">Home</router-link>
         <a
           href="mailto:antoine.renault.mmi@gmail.com"
           class="email">antoine.renault.mmi@gmail.com</a>
@@ -55,17 +52,9 @@ nav {
   float: right;
 }
 
-.left,
-.right {
-  float: left;
-}
-
 .right {
   text-align: right;
-}
-
-.left,
-.right {
+  float: left;
   a {
     margin: 0 10px 0 0;
     text-decoration: none;
