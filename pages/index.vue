@@ -15,10 +15,21 @@ export default {
   asyncData(context, callback) {
     callback(null, { projectsData: data });
   },
+  head() {
+    return {
+      title: "Portfolio of Antoine Renault",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "The home of my portfolio"
+        }
+      ]
+    };
+  },
   components: {
     headerComponent: header,
     projects
   }
 };
 </script>
-
