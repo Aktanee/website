@@ -28,32 +28,39 @@ export default [
         name: "Product Hunt"
       }
     ],
-    missions: ["Frontend Development", "Backend Development", "DevOps"]
+    missions: [
+      "Frontend Development",
+      "Backend Development",
+      "DevOps",
+      "Development Environment"
+    ]
   },
   {
     name: "Le top 100",
     slug: "le-top-100",
     description: "Template de haute qualité",
-    thumbnail:
-      "https://images.unsplash.com/photo-1537403076161-eab9098c0372?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1319e39ab8bc267aadabb6fd4b56f43a&auto=format&fit=crop&w=500&q=80",
+    thumbnail: "/images/le-top-100-thumbnail.jpg",
     images: [
       {
-        url:
-          "https://images.unsplash.com/photo-1537403076161-eab9098c0372?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1319e39ab8bc267aadabb6fd4b56f43a&auto=format&fit=crop&w=500&q=80",
-        subtitle: "Description of the image"
-      }
-    ],
-    year: "2017",
-    technologies: ["Vue"],
-    client: "Orson.io",
-    links: [
-      {
-        url: "http://www.mashup-template.com/",
-        name: "Online"
+        url: "/images/le-top-100.png",
+        subtitle: ""
       },
       {
-        url: "https://www.producthunt.com/posts/mashup-template",
-        name: "Product Hunt"
+        url: "/images/le-top-100-2.png",
+        subtitle: ""
+      }
+    ],
+    year: "2017 - 2018",
+    technologies: ["Vue"],
+    client: "Orson.io / Les Echos",
+    links: [
+      {
+        url: "https://www.letop100.net/",
+        name: "Le top 100 SEO"
+      },
+      {
+        url: "https://www.letop100digital.com/",
+        name: "Le top 100 Digital"
       }
     ],
     missions: ["Frontend Development", "Backend Development "]
@@ -61,55 +68,56 @@ export default [
   {
     name: "Bootstrap Magic",
     slug: "bootstrap-magic",
-    description: "Template de haute qualité",
-    thumbnail:
-      "https://images.unsplash.com/photo-1537403076161-eab9098c0372?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1319e39ab8bc267aadabb6fd4b56f43a&auto=format&fit=crop&w=500&q=80",
+    description:
+      "It’s the latest incarnation of our world-famous Bootstrap theme editor, which makes it extra easy to create your own custom Bootstrap 4.0 template using the built-in HTML editor with live reload. Use all Bootstrap variables, mixins and functions from Sass to create an amazing template.",
+    thumbnail: "/images/bootstrap-magic.jpeg",
     images: [
       {
-        url:
-          "https://images.unsplash.com/photo-1537403076161-eab9098c0372?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1319e39ab8bc267aadabb6fd4b56f43a&auto=format&fit=crop&w=500&q=80",
-        subtitle: "Description of the image"
+        url: "/images/bootstrap-magic-2.jpeg",
+        subtitle: ""
+      },
+      {
+        url: "/images/bootstrap-magic-3.jpeg",
+        subtitle: ""
       }
     ],
     year: "2017",
-    technologies: ["Vue"],
+    technologies: ["Bootstrap", "Angular"],
     client: "Orson.io",
     links: [
       {
-        url: "http://www.mashup-template.com/",
+        url: "https://pikock.github.io/bootstrap-magic",
         name: "Online"
       },
       {
-        url: "https://www.producthunt.com/posts/mashup-template",
+        url: "https://github.com/pikock/bootstrap-magic",
+        name: "Github"
+      },
+      {
+        url: "https://www.producthunt.com/posts/bootstrap-magic",
         name: "Product Hunt"
       }
     ],
-    missions: ["Frontend Development", "Backend Development "]
+    missions: ["Frontend Development", "Backend Development", "DevOps"]
   },
   {
     name: "Entourage",
     slug: "entourage",
     description: "Template de haute qualité",
-    thumbnail:
-      "https://images.unsplash.com/photo-1537403076161-eab9098c0372?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1319e39ab8bc267aadabb6fd4b56f43a&auto=format&fit=crop&w=500&q=80",
+    thumbnail: "/images/entourage.png",
     images: [
       {
-        url:
-          "https://images.unsplash.com/photo-1537403076161-eab9098c0372?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1319e39ab8bc267aadabb6fd4b56f43a&auto=format&fit=crop&w=500&q=80",
-        subtitle: "Description of the image"
+        url: "/images/entourage.png",
+        subtitle: ""
       }
     ],
-    year: "2017",
+    year: "2018",
     technologies: ["Vue"],
     client: "Orson.io",
     links: [
       {
-        url: "http://www.mashup-template.com/",
+        url: "https://entourage.orson.io/",
         name: "Online"
-      },
-      {
-        url: "https://www.producthunt.com/posts/mashup-template",
-        name: "Product Hunt"
       }
     ],
     missions: ["Frontend Development", "Backend Development "]
