@@ -42,8 +42,6 @@
 </template>
 
 <style lang="scss" scoped>
-@import "../assets/scss/variables.scss";
-
 .footer {
   background-color: #252525;
   color: #5d5d5d;

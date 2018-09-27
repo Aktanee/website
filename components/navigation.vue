@@ -25,8 +25,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../assets/scss/variables.scss";
-
 .navigation {
   overflow: auto;
   padding: 0 0 80px 0;
