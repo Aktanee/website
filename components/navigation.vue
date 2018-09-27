@@ -21,13 +21,13 @@
       </div>
     </nav>
 
-    <!-- <transition name="dropdown"> -->
-    <div
-      v-show="smallMenu"
-      class="right small">
-      <navigation-link :links="pages"/>
-    </div>
-    <!-- </transition> -->
+    <transition name="dropdown">
+      <div
+        v-show="smallMenu"
+        class="right small">
+        <navigation-link :links="pages"/>
+      </div>
+    </transition>
 
   </div>
 </template>
@@ -94,7 +94,7 @@ nav {
 
 .right {
   text-align: right;
-  float: left;
+  float: right;
   a {
     margin: 0 10px 0 0;
     text-decoration: none;
@@ -106,7 +106,7 @@ nav {
   clear: both;
   margin: 30px 0 0;
   transform-origin: top;
-  transition: transform 0.5s ease;
+  transition: opacity 0.5s ease, margin 0.5s ease;
 
   a {
     width: 100%;

@@ -33,3 +33,9 @@ body {
   background: white;
   max-width: $large-width;
 }
+
+@media screen and (max-width: $small-width) {
+  .site {
+    margin: 5px auto 50px;
+  }
+}
