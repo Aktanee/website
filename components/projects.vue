@@ -75,7 +75,7 @@ h2 {
   }
 }
 
-@media screen and (max-width: $max-width) {
+@media screen and (max-width: $large-width) {
   .project {
     width: 100%;
     margin: auto 0 40px !important;
