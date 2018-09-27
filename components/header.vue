@@ -25,8 +25,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../assets/scss/variables.scss";
-
 .header {
   margin: 80px 0 160px;
 }

@@ -1,7 +1,7 @@
 <template>
   <div class="project">
     <div class="left-panel">
-      <div class="info-single">
+      <div class="info-single title">
         <div class="content">{{ project.name }}</div>
         <div class="label client">{{ project.client }}</div>
       </div>
@@ -121,10 +121,33 @@ export default {
   font-size: 0.9em;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: $medium-width) {
   .left-panel,
   .right-panel {
     width: 100%;
+  }
+
+  .left-panel {
+    margin: 0 0 20px 0;
+    .info-single.title {
+      width: 100%;
+    }
+
+    .info-single,
+    .info-multiple {
+      width: 50%;
+      float: left;
+    }
+  }
+}
+
+@media screen and (max-width: $small-width) {
+  .left-panel {
+    .info-single,
+    .info-multiple {
+      width: 100%;
+      float: left;
+    }
   }
 }
 </style>

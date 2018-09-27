@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "normalize.css": "^8.0.0",
-    "nuxt": "^1.0.0"
+    "nuxt": "^1.0.0",
+    "nuxt-sass-resources-loader": "^2.0.5"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",

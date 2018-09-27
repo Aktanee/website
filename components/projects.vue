@@ -69,9 +69,16 @@ h2 {
   }
 
   .thumbnail {
-    min-height: 300px;
+    padding: 0 0 66% 0;
     background-size: cover;
     background-position: left top;
+  }
+}
+
+@media screen and (max-width: $large-width) {
+  .project {
+    width: 100%;
+    margin: auto 0 40px !important;
   }
 }
 </style>
