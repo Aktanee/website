@@ -70,14 +70,13 @@ export default {
   overflow: auto;
   padding: 0 0 80px 0;
   margin: 0 0 10px;
-  position: relative;
   font-size: 0.9em;
 }
 
 .logo {
   position: absolute;
-  left: 0;
-  font-size: 0.9em;
+  left: 20px;
+  margin: -10px 0 0 0;
 
   .job-title {
     color: darkgrey;
@@ -149,6 +148,10 @@ a.email {
 
   .big {
     display: none;
+  }
+
+  .logo {
+    margin: 0 0 0 0;
   }
 }
 </style>

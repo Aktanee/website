@@ -53,14 +53,13 @@ h2 {
 
 .project {
   width: calc(50% - 20px);
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 
   &:nth-child(2n + 1) {
     margin-right: 10px;
   }
 
   &:nth-child(2n) {
-    background: green($color: #000000);
     margin-left: 10px;
   }
 
@@ -69,9 +68,18 @@ h2 {
   }
 
   .thumbnail {
-    padding: 0 0 66% 0;
+    padding: 0 0 55% 0;
     background-size: cover;
-    background-position: left top;
+    background-position: center top;
+  }
+}
+
+.projects-subtitle {
+  color: $dark-grey;
+  margin: 0 0 40px;
+
+  h3 {
+    font-weight: 400;
   }
 }
 
