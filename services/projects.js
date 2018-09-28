@@ -2,6 +2,8 @@ export default [
   {
     name: "Entourage",
     slug: "entourage",
+    color: "#1769ff",
+    phrase: "An annexes for web agency and freelance",
     description:
       "This website that annexes web agency and freelance around France to help them be available. Including smart research and good portfolio gallery.",
     thumbnail: "/images/entourage.png",
@@ -28,6 +30,8 @@ export default [
   {
     name: "Mashup Template",
     slug: "mashup-template",
+    color: "#000000",
+    phrase: "A collection of handcraft boilerplate website",
     description:
       "Free Beautiful HTML5 Template based on pre-built Blocks to create a website in minutes. All Mashup Templates are responsive design, fully customisable and can be used for any commercial project.",
     thumbnail: "/images/mashup-template.jpeg",
@@ -63,6 +67,8 @@ export default [
   {
     name: "Le top 100",
     slug: "le-top-100",
+    color: "#3acb72",
+    phrase: "Boilerplate application for votable list",
     description:
       "Boilerplate web application allowing the creation of a list of votable advice.",
     thumbnail: "/images/le-top-100-thumbnail.jpg",
@@ -93,6 +99,8 @@ export default [
   {
     name: "Bootstrap Magic",
     slug: "bootstrap-magic",
+    color: "#0d1745",
+    phrase: "A web app to create bootstrap themes",
     description:
       "It’s the latest incarnation of our world-famous Bootstrap theme editor, which makes it extra easy to create your own custom Bootstrap 4.0 template using the built-in HTML editor with live reload. Use all Bootstrap variables, mixins and functions from Sass to create an amazing template.",
     thumbnail: "/images/bootstrap-magic.jpeg",

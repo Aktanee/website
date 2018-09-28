@@ -44,19 +44,19 @@
 <style lang="scss" scoped>
 .footer {
   background-color: #252525;
-  color: #5d5d5d;
+  color: $dark-grey;
   padding: 40px 30px;
   font-size: 0.9em;
 }
 
 .footer-content {
-  max-width: 1200px;
+  max-width: $large-width;
   margin: auto;
 }
 
 .name {
   font-size: 1.3em;
-  color: #c9c9c9;
+  color: $light-grey;
   margin: 0 0 -2px 0;
 }
 
@@ -89,7 +89,7 @@
   }
 
   a {
-    color: #5d5d5d;
+    color: $dark-grey;
     text-decoration: none;
   }
 }

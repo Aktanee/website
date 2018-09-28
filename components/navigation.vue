@@ -21,13 +21,13 @@
       </div>
     </nav>
 
-    <!-- <transition name="dropdown"> -->
-    <div
-      v-show="smallMenu"
-      class="right small">
-      <navigation-link :links="pages"/>
-    </div>
-    <!-- </transition> -->
+    <transition name="dropdown">
+      <div
+        v-show="smallMenu"
+        class="right small">
+        <navigation-link :links="pages"/>
+      </div>
+    </transition>
 
   </div>
 </template>
@@ -70,14 +70,13 @@ export default {
   overflow: auto;
   padding: 0 0 80px 0;
   margin: 0 0 10px;
-  position: relative;
   font-size: 0.9em;
 }
 
 .logo {
   position: absolute;
-  left: 0;
-  font-size: 0.9em;
+  left: 20px;
+  margin: -10px 0 0 0;
 
   .job-title {
     color: darkgrey;
@@ -94,7 +93,7 @@ nav {
 
 .right {
   text-align: right;
-  float: left;
+  float: right;
   a {
     margin: 0 10px 0 0;
     text-decoration: none;
@@ -106,7 +105,7 @@ nav {
   clear: both;
   margin: 30px 0 0;
   transform-origin: top;
-  transition: transform 0.5s ease;
+  transition: opacity 0.5s ease, margin 0.5s ease;
 
   a {
     width: 100%;
@@ -149,6 +148,10 @@ a.email {
 
   .big {
     display: none;
+  }
+
+  .logo {
+    margin: 0 0 0 0;
   }
 }
 </style>
