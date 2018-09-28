@@ -24,13 +24,17 @@
 </template>
 
 <script>
+function goToSection() {
+  document.querySelector(".down-arrow").addEventListener("click", () => {
+    const top = document.querySelector(".projects-container").offsetTop - 50;
+    window.scroll({ top, behavior: "smooth" });
+  });
+}
+
 export default {
   name: "Header",
   mounted() {
-    document.querySelector(".down-arrow").addEventListener("click", () => {
-      const top = document.querySelector(".projects-container").offsetTop - 50;
-      window.scroll({ top, behavior: "smooth" });
-    });
+    goToSection();
   }
 };
 </script>
