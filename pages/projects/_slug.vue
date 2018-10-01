@@ -90,8 +90,28 @@ export default {
       meta: [
         {
           hid: "description",
-          name: this.project.slug,
+          name: "description",
           content: this.project.description
+        },
+        {
+          property: "og:title",
+          hid: "og:title",
+          content: `${this.project.name} | Project`
+        },
+        {
+          property: "og:description",
+          hid: "og:description",
+          content: this.project.description
+        },
+        {
+          property: "og:image",
+          hid: "og:image",
+          content: this.project.thumbnail
+        },
+        {
+          property: "og:url",
+          hid: "og:url",
+          content: `/projects/${this.project.slug}`
         }
       ]
     };

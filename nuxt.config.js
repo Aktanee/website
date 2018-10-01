@@ -11,6 +11,10 @@ module.exports = {
         hid: "description",
         name: "description",
         content: "Antoine Renault portfolio"
+      },
+      {
+        property: "og:type",
+        content: "website"
       }
     ],
     link: [
