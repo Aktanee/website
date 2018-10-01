@@ -2,6 +2,8 @@
   <div class="projects-container">
     <div class="projects-subtitle">
       <h3>Recent works</h3>
+
+      <nuxt-link to="/projects">View all</nuxt-link>
     </div>
 
     <div class="projects">
@@ -160,6 +162,9 @@ $shade-padding: 30px;
 }
 
 .projects-subtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
   color: $dark-grey;
   margin: 0 0 40px;
 
