@@ -2,13 +2,14 @@
   <section class="container index">
     <headerComponent/>
     <recentProjects :projects="recentProjectsData"/>
-    <Header/>
+    <!-- <hire/> -->
   </section>
 </template>
 
 <script>
 import header from "@/components/header";
 import recentProjects from "@/components/recentProjects";
+import hire from "@/components/hire";
 import data from "@/services/projects";
 
 export default {
@@ -30,7 +31,8 @@ export default {
   },
   components: {
     headerComponent: header,
-    recentProjects
+    recentProjects,
+    hire
   }
 };
 </script>
