@@ -1,9 +1,6 @@
 <template>
   <div class="projects-container">
-    <div class="projects-subtitle">
-      <h3>Recent works</h3>
-    </div>
-
+    <h2>My projects</h2>
     <div class="projects">
       <div
         v-for="project of projects"
@@ -26,7 +23,6 @@
               <div class="mark"/>
               <p class="description">{{ project.phrase }}</p>
             </div>
-
           </div>
         </router-link>
       </div>
@@ -35,15 +31,12 @@
 </template>
 
 <script>
+import data from "~/services/projects.js";
+
 export default {
   name: "Projects",
-  props: {
-    projects: {
-      type: Array,
-      default() {
-        return [];
-      }
-    }
+  asyncData(context, callback) {
+    callback(null, { projects: data });
   },
   methods: {
     getLink({ slug }) {

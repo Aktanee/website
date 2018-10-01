@@ -45,7 +45,7 @@
         <img :src="project.thumbnail">
       </div>
 
-      <div class="info-single">
+      <div class="info-single description">
         <div
           class="content"
           v-html="project.description"
@@ -90,8 +90,28 @@ export default {
       meta: [
         {
           hid: "description",
-          name: this.project.slug,
+          name: "description",
           content: this.project.description
+        },
+        {
+          property: "og:title",
+          hid: "og:title",
+          content: `${this.project.name} | Project`
+        },
+        {
+          property: "og:description",
+          hid: "og:description",
+          content: this.project.description
+        },
+        {
+          property: "og:image",
+          hid: "og:image",
+          content: this.project.thumbnail
+        },
+        {
+          property: "og:url",
+          hid: "og:url",
+          content: `/projects/${this.project.slug}`
         }
       ]
     };
@@ -115,6 +135,10 @@ export default {
   img {
     width: 100%;
   }
+}
+
+.description {
+  margin: 0 0 40px 0;
 }
 
 .client {

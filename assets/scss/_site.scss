@@ -23,20 +23,3 @@ body {
   box-sizing: border-box;
   margin: 0;
 }
-
-.site {
-  position: relative;
-  max-width: $large-width;
-  margin: 50px auto;
-  padding: 20px;
-  min-height: 100%;
-  box-sizing: border-box;
-  border: 0px transparent;
-
-}
-
-@media screen and (max-width: $small-width) {
-  .site {
-    margin: 5px auto 50px;
-  }
-}

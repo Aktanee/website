@@ -1,0 +1,10 @@
+// Dropdown
+
+.dropdown-leave-active {
+  transition: opacity 0s;
+}
+
+.dropdown-enter, .dropdown-leave-to {
+  opacity: 0;
+  margin: 0;
+}

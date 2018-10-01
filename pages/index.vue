@@ -1,19 +1,21 @@
 <template>
   <section class="container index">
     <headerComponent/>
-    <projects :projects="projectsData"/>
-    <Header/>
+    <recentProjects :projects="recentProjectsData"/>
+    <!-- <hire/> -->
   </section>
 </template>
 
 <script>
 import header from "@/components/header";
-import projects from "@/components/projects";
+import recentProjects from "@/components/recentProjects";
+import hire from "@/components/hire";
 import data from "@/services/projects";
 
 export default {
   asyncData(context, callback) {
-    callback(null, { projectsData: data });
+    data.length = 4;
+    callback(null, { recentProjectsData: data });
   },
   head() {
     return {
@@ -29,7 +31,8 @@ export default {
   },
   components: {
     headerComponent: header,
-    projects
+    recentProjects,
+    hire
   }
 };
 </script>

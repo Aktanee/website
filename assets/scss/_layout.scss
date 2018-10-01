@@ -1,0 +1,38 @@
+// Panel
+.left-panel,
+.right-panel {
+  float: left;
+}
+
+.left-panel {
+  width: 30%;
+}
+
+.right-panel {
+  width: 70%;
+}
+
+.label {
+  color: gray;
+  font-size: .8em;
+  margin: 0 0 8px;
+}
+
+// Site
+
+.site {
+  position: relative;
+  max-width: $large-width;
+  margin: 50px auto;
+  padding: 20px;
+  min-height: 100%;
+  box-sizing: border-box;
+  border: 0px transparent;
+
+}
+
+@media screen and (max-width: $small-width) {
+  .site {
+    margin: 5px auto 50px;
+  }
+}

@@ -11,6 +11,10 @@ module.exports = {
         hid: "description",
         name: "description",
         content: "Antoine Renault portfolio"
+      },
+      {
+        property: "og:type",
+        content: "website"
       }
     ],
     link: [
@@ -21,7 +25,7 @@ module.exports = {
       }
     ]
   },
-  modules: [["nuxt-sass-resources-loader", "@/assets/scss/variables.scss"]],
+  modules: [["nuxt-sass-resources-loader", "@/assets/scss/_variables.scss"]],
   css: ["normalize.css", "@/assets/scss/base.scss"],
   /*
   ** Customize the progress bar color
@@ -48,6 +52,7 @@ module.exports = {
   generate: {
     subFolders: false,
     routes: [
+      "/projects",
       "/projects/entourage",
       "/projects/bootstrap-magic",
       "/projects/mashup-template",
