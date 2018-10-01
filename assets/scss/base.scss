@@ -1,26 +1,8 @@
 @import "variables.scss";
 @import "site.scss";
 @import "layout.scss";
+@import "transition.scss";
 
-a {
-  color: black;
-  transition: color .3s ease;
+// Components
+@import "components/link";
 
-  &:hover {
-    color: $mainColor;
-  }
-
-  &.nuxt-link-active {
-    color: $mainColor;
-  }
-
-}
-
-.dropdown-leave-active {
-  transition: opacity 0s;
-}
-
-.dropdown-enter, .dropdown-leave-to {
-  opacity: 0;
-  margin: 0;
-}

@@ -1,0 +1,13 @@
+a {
+  color: black;
+  transition: color .3s ease;
+
+  &:hover {
+    color: $mainColor;
+  }
+
+  &.nuxt-link-exact-active {
+    color: $mainColor;
+  }
+
+}
