@@ -117,6 +117,10 @@ export default {
   }
 }
 
+.content {
+  margin: 0 0 40px 0;
+}
+
 .client {
   font-size: 0.9em;
 }
