@@ -45,7 +45,7 @@
         <img :src="project.thumbnail">
       </div>
 
-      <div class="info-single">
+      <div class="info-single description">
         <div
           class="content"
           v-html="project.description"
@@ -117,7 +117,7 @@ export default {
   }
 }
 
-.content {
+.description {
   margin: 0 0 40px 0;
 }
 
