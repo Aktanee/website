@@ -48,6 +48,7 @@ module.exports = {
   generate: {
     subFolders: false,
     routes: [
+      "/projects",
       "/projects/entourage",
       "/projects/bootstrap-magic",
       "/projects/mashup-template",
