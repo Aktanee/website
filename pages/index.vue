@@ -2,7 +2,7 @@
   <section class="container index">
     <headerComponent/>
     <recentProjects :projects="recentProjectsData"/>
-    <!-- <hire/> -->
+    <hire/>
   </section>
 </template>
 
