@@ -80,7 +80,7 @@
 }
 
 .menu-item {
-  margin: 0 40px 0 0;
+  margin: 0 80px 20px 0;
   float: left;
 
   .title {
