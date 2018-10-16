@@ -18,6 +18,7 @@
 
     <div class="down-arrow">
       <img
+        alt="Go to projects section"
         src="/images/down-arrow.svg">
     </div>
   </div>

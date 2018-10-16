@@ -42,9 +42,11 @@
 </template>
 
 <style lang="scss" scoped>
+$footer-grey: #949393;
+
 .footer {
   background-color: #252525;
-  color: $dark-grey;
+  color: $footer-grey;
   padding: 40px 30px;
   font-size: 0.9em;
 }
@@ -89,7 +91,7 @@
   }
 
   a {
-    color: $dark-grey;
+    color: $footer-grey;
     text-decoration: none;
   }
 }

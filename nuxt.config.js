@@ -4,6 +4,9 @@ module.exports = {
   */
   head: {
     title: "website",
+    htmlAttrs: {
+      lang: "en"
+    },
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -17,13 +20,7 @@ module.exports = {
         content: "website"
       }
     ],
-    link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-      {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css?family=Raleway"
-      }
-    ]
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
   modules: [["nuxt-sass-resources-loader", "@/assets/scss/_variables.scss"]],
   css: ["normalize.css", "@/assets/scss/base.scss"],
