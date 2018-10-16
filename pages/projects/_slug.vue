@@ -42,7 +42,9 @@
 
     <div class="right-panel">
       <div class="info-single thumbnail">
-        <img :src="project.thumbnail">
+        <img
+          :src="project.thumbnail"
+          :alt="getThumbnailAlt(project)">
       </div>
 
       <div class="info-single description">
@@ -82,6 +84,11 @@ export default {
       callback(null, { project });
     } else {
       redirect("/");
+    }
+  },
+  methods: {
+    getThumbnailAlt({ name }) {
+      return `Thumbnail of ${name} projects`;
     }
   },
   head() {

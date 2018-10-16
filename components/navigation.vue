@@ -17,7 +17,7 @@
         @click="toggleMenu()">
         <img
           src="/images/menu.svg"
-          alt="">
+          alt="Toggle menu">
       </div>
     </nav>
 
