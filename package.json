@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "website",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "My portfolio",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Antoine Renault @Aktanee",
   "dependencies": {
     "gatsby": "^2.5.0",
     "gatsby-image": "^2.0.41",
@@ -21,13 +21,10 @@
   "devDependencies": {
     "prettier": "^1.17.1"
   },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -35,9 +32,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/Aktanee/website"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/Aktanee/website/issues"
   }
 }
