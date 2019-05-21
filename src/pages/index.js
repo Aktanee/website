@@ -9,7 +9,7 @@ import WorkLists from '../components/WorkLists'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Home" />
     <Title/>
     <JobSearch/>
     <BlogPostList/>
