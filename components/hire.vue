@@ -7,7 +7,7 @@
       {{ content }}
     </div>
     <div class="cv">
-      <a href="/pdf/antoine-renault.pdf">My resume</a>
+      <a href="/pdf/antoine-renault-en.pdf">My resume</a>
     </div>
   </div>
 </template>
