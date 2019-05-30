@@ -1,16 +1,10 @@
 <template>
   <span>
-    <span
-      v-for="link of links"
-      :key="link.path">
-      <nuxt-link
-        v-if="link.nuxt"
-        :to="link.path">
+    <span v-for="link of links" :key="link.path">
+      <nuxt-link v-if="link.nuxt" :to="link.path">
         {{ link.name }}
       </nuxt-link>
-      <a
-        v-else
-        :href="link.path">
+      <a v-else :href="link.path">
         {{ link.name }}
       </a>
     </span>

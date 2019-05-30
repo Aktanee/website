@@ -4,7 +4,9 @@
       <div class="footer-head">
         <div class="name">Antoine Renault</div>
         <div class="contact">antoine.renault.mmi@gmail.com</div>
-        <div class="job-title">Fullstack developper specialized in Javascript</div>
+        <div class="job-title">
+          Fullstack developper specialized in Javascript
+        </div>
       </div>
       <div class="menu">
         <div class="menu-item">

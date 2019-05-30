@@ -9,26 +9,19 @@
       </nuxt-link>
 
       <div class="right big">
-        <navigation-link :links="pages"/>
+        <navigation-link :links="pages" />
       </div>
 
-      <div
-        class="menu-input"
-        @click="toggleMenu()">
-        <img
-          src="/images/menu.svg"
-          alt="Toggle menu">
+      <div class="menu-input" @click="toggleMenu()">
+        <img src="/images/menu.svg" alt="Toggle menu" />
       </div>
     </nav>
 
     <transition name="dropdown">
-      <div
-        v-show="smallMenu"
-        class="right small">
-        <navigation-link :links="pages"/>
+      <div v-show="smallMenu" class="right small">
+        <navigation-link :links="pages" />
       </div>
     </transition>
-
   </div>
 </template>
 

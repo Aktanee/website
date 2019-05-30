@@ -1,8 +1,8 @@
 <template>
   <section class="container index">
-    <headerComponent/>
-    <recentProjects :projects="recentProjectsData"/>
-    <hire/>
+    <headerComponent />
+    <recentProjects :projects="recentProjectsData" />
+    <hire />
   </section>
 </template>
 
