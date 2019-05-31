@@ -13,10 +13,11 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "lodash.clonedeep": "^4.5.0",
+    "node-sass": "^4.12.0",
     "normalize.css": "^8.0.1",
     "nuxt": "^2.7.1",
     "nuxt-sass-resources-loader": "^2.0.5",
-    "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0"
   },
   "devDependencies": {
