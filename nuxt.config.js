@@ -1,7 +1,7 @@
 module.exports = {
   /*
-  ** Headers of the page
-  */
+   ** Headers of the page
+   */
   head: {
     title: "website",
     htmlAttrs: {
@@ -22,19 +22,26 @@ module.exports = {
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
-  modules: [["nuxt-sass-resources-loader", "@/assets/scss/_variables.scss"]],
-  css: ["normalize.css", "@/assets/scss/base.scss"],
+  modules: [["@nuxtjs/style-resources"]],
+  styleResources: {
+    // your settings here
+    css: ["normalize.css"],
+    scss: ["@/assets/scss/base.scss"],
+    less: [],
+    stylus: []
+  },
+
   /*
-  ** Customize the progress bar color
-  */
+   ** Customize the progress bar color
+   */
   loading: { color: "#3B8070" },
   /*
-  ** Build configuration
-  */
+   ** Build configuration
+   */
   build: {
     /*
-    ** Run ESLint on save
-    */
+     ** Run ESLint on save
+     */
     extend(config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({

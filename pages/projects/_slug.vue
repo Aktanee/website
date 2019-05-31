@@ -17,10 +17,9 @@
           <div
             v-for="(content, index) of project.links"
             :key="index"
-            class="content">
-            <a
-              :href="content.url"
-              target="_blank">
+            class="content"
+          >
+            <a :href="content.url" target="_blank">
               {{ content.name }}
             </a>
           </div>
@@ -33,7 +32,8 @@
           <div
             v-for="(content, index) of project.missions"
             :key="index"
-            class="content">
+            class="content"
+          >
             {{ content }}
           </div>
         </div>
@@ -42,16 +42,11 @@
 
     <div class="right-panel">
       <div class="info-single thumbnail">
-        <img
-          :src="project.thumbnail"
-          :alt="getThumbnailAlt(project)">
+        <img :src="project.thumbnail" :alt="getThumbnailAlt(project)" />
       </div>
 
       <div class="info-single description">
-        <div
-          class="content"
-          v-html="project.description"
-        />
+        <div class="content" v-html="project.description" />
       </div>
 
       <div class="info-multiple images">
@@ -59,10 +54,9 @@
           <div
             v-for="(content, index) of project.images"
             :key="index"
-            class="content">
-            <img
-              :src="content.url"
-              :alt="content.subtitle">
+            class="content"
+          >
+            <img :src="content.url" :alt="content.subtitle" />
             <small>{{ content.subtitle }}</small>
           </div>
         </div>

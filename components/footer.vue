@@ -3,8 +3,12 @@
     <div class="footer-content">
       <div class="footer-head">
         <div class="name">Antoine Renault</div>
-        <div class="contact">antoine.renault.mmi@gmail.com</div>
-        <div class="job-title">Fullstack developper specialized in Javascript</div>
+        <div class="contact">
+          antoine.renault.mmi@gmail.com
+        </div>
+        <div class="job-title">
+          Fullstack developper specialized in Javascript
+        </div>
       </div>
       <div class="menu">
         <div class="menu-item">
@@ -12,7 +16,9 @@
 
           <div class="menu-item-content">
             <p>
-              antoine.renault.mmi@gmail.com
+              <a href="mailto:antoine.renault.mmi@gmail.com"
+                >antoine.renault.mmi@gmail.com</a
+              >
             </p>
           </div>
         </div>
@@ -27,7 +33,9 @@
               </a>
             </p>
             <p>
-              <a href="https://www.linkedin.com/in/antoine-renault-a84b6398/">
+              <a
+                href="https://www.linkedin.com/in/antoine-renault-a84b6398/?locale=en_US"
+              >
                 LinkedIn
               </a>
             </p>

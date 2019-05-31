@@ -1,8 +1,8 @@
 <template>
   <section class="container index">
-    <headerComponent/>
-    <recentProjects :projects="recentProjectsData"/>
-    <hire/>
+    <headerComponent />
+    <recentProjects :projects="recentProjectsData" />
+    <hire />
   </section>
 </template>
 
@@ -13,6 +13,11 @@ import hire from "@/components/hire";
 import data from "@/services/projects";
 
 export default {
+  components: {
+    headerComponent: header,
+    recentProjects,
+    hire
+  },
   asyncData(context, callback) {
     data.length = 4;
     callback(null, { recentProjectsData: data });
@@ -28,11 +33,6 @@ export default {
         }
       ]
     };
-  },
-  components: {
-    headerComponent: header,
-    recentProjects,
-    hire
   }
 };
 </script>

@@ -7,28 +7,19 @@
     </div>
 
     <div class="projects">
-      <div
-        v-for="project of projects"
-        :key="project.slug"
-        class="project">
+      <div v-for="project of projects" :key="project.slug" class="project">
         <router-link :to="getLink(project)">
-          <div
-            :style="getThumbnail(project)"
-            class="thumbnail"
-          />
+          <div :style="getThumbnail(project)" class="thumbnail" />
           <div class="mobile-content">
             <h3>{{ project.name }}</h3>
             <div class="short-phrase">{{ project.phrase }}</div>
           </div>
-          <div
-            :style="getShade(project)"
-            class="shade">
+          <div :style="getShade(project)" class="shade">
             <div class="content">
               <h3>{{ project.name }}</h3>
-              <div class="mark"/>
+              <div class="mark" />
               <p class="description">{{ project.phrase }}</p>
             </div>
-
           </div>
         </router-link>
       </div>

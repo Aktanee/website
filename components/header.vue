@@ -2,24 +2,22 @@
   <div class="header">
     <div class="callout">
       Hey, I'm a fullstack developer from Paris, France.
-      <br>
+      <br />
       I can help you build your next product.
     </div>
     <p>
-      Fan of simplicity and modularity. Research optimization of process automation and improvement of my knowledge.
+      Fan of simplicity and modularity. Research optimization of process
+      automation and improvement of my knowledge.
     </p>
     <p>
-      Let's chat at <a
-        class="email"
-        href="mailto:antoine.renault.mmi@gmail.com">
+      Let's chat at
+      <a class="email" href="mailto:antoine.renault.mmi@gmail.com">
         antoine.renault.mmi@gmail.com
       </a>
     </p>
 
     <div class="down-arrow">
-      <img
-        alt="Go to projects section"
-        src="/images/down-arrow.svg">
+      <img alt="Go to projects section" src="/images/down-arrow.svg" />
     </div>
   </div>
 </template>
