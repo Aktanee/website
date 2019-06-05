@@ -1,5 +1,23 @@
 export default [
   {
+    name: "Butler",
+    slug: "butler",
+    color: "#252525",
+    phrase: "Automation of project environment for MacOS using iTerm API",
+    description:
+      "This project is used to quickly launch differents project environment for your dev team. The idea is to open different tab programmatically against iTerm while setting up path and commands.",
+    year: 2019,
+    client: "Open Source",
+    thumbnail: "/images/butler.png",
+    links: [
+      {
+        url: "https://github.com/Aktanee/butler",
+        name: "Github"
+      }
+    ],
+    missions: ["Automation", "Workplace improvement"]
+  },
+  {
     name: "Entourage",
     slug: "entourage",
     color: "#1769ff",
