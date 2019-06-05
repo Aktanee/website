@@ -15,7 +15,8 @@ export default [
         name: "Github"
       }
     ],
-    missions: ["Automation", "Workplace improvement"]
+    missions: ["Automation", "Workplace improvement"],
+    featured: true
   },
   {
     name: "Entourage",
@@ -43,7 +44,8 @@ export default [
         name: "Online"
       }
     ],
-    missions: ["Frontend Development", "Backend Development", "DevOps"]
+    missions: ["Frontend Development", "Backend Development", "DevOps"],
+    featured: true
   },
   {
     name: "Mashup Template",
@@ -80,7 +82,8 @@ export default [
       "Backend development",
       "DevOps",
       "Development environment"
-    ]
+    ],
+    featured: true
   },
   {
     name: "Le top 100",
@@ -112,7 +115,8 @@ export default [
         name: "Le top 100 Digital"
       }
     ],
-    missions: ["Frontend Development", "Backend Development"]
+    missions: ["Frontend Development", "Backend Development"],
+    featured: false
   },
   {
     name: "Bootstrap Magic",
@@ -148,6 +152,7 @@ export default [
         name: "Product Hunt"
       }
     ],
-    missions: ["Frontend Development", "Backend Development", "DevOps"]
+    missions: ["Frontend Development", "Backend Development", "DevOps"],
+    featured: true
   }
 ];

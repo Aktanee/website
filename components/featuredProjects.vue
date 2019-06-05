@@ -1,7 +1,7 @@
 <template>
   <div class="projects-container">
     <div class="projects-subtitle">
-      <h3>Recent works</h3>
+      <h3>Featured works</h3>
 
       <nuxt-link to="/projects">View all</nuxt-link>
     </div>

@@ -1,26 +1,27 @@
 <template>
   <section class="container index">
     <headerComponent />
-    <recentProjects :projects="recentProjectsData" />
+    <featuredProjects :projects="featuredProjectsData" />
     <hire />
   </section>
 </template>
 
 <script>
 import header from "@/components/header";
-import recentProjects from "@/components/recentProjects";
+import featuredProjects from "@/components/featuredProjects";
 import hire from "@/components/hire";
 import data from "@/services/projects";
 
 export default {
   components: {
     headerComponent: header,
-    recentProjects,
+    featuredProjects,
     hire
   },
   asyncData(context, callback) {
-    data.length = 4;
-    callback(null, { recentProjectsData: data });
+    const featuredProjects = data.filter(project => project.featured);
+    featuredProjects.length = 4;
+    callback(null, { featuredProjectsData: featuredProjects });
   },
   head() {
     return {
