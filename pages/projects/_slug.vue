@@ -46,6 +46,7 @@
       </div>
 
       <div class="info-single description">
+        <!-- eslint-disable-next-line vue/no-v-html -->
         <div class="content" v-html="project.description" />
       </div>
 
