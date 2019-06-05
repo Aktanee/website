@@ -1,15 +1,16 @@
 <template>
   <div class="header">
     <div class="callout">
-      Hey, I'm a fullstack developer from Paris, France.
-      <br />
-      I can help you build your next product.
+      Hello, my name is Antoine Renault, I'm a Software Engineer who is
+      specialized in building Web Application from start to finish.
     </div>
     <p>
-      Fan of simplicity and modularity. Research optimization of process
-      automation and improvement of my knowledge.
+      I'm looking for a new project that can help me discover new experiences,
+      grow with diversity in tech, an develop an active voice in the community.
+      I'm currently located in Paris, France, but willing to discover to new
+      cities.
     </p>
-    <p>
+    <p class="cpa">
       Let's chat at
       <a class="email" href="mailto:antoine.renault.mmi@gmail.com">
         antoine.renault.mmi@gmail.com
@@ -88,12 +89,20 @@ p {
 }
 
 .callout {
-  font-size: 1.8em;
+  font-size: 1.5em;
   line-height: 1.2;
   margin: 0 0 30px 0;
 }
 
+.cpa {
+  margin-top: 1em;
+}
+
 @media screen and (max-width: $small-width) {
+  .down-arrow {
+    display: none;
+  }
+
   .header {
     min-height: calc(100vh - 160px - 55px);
   }

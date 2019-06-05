@@ -60,7 +60,8 @@ module.exports = {
       "/projects/entourage",
       "/projects/bootstrap-magic",
       "/projects/mashup-template",
-      "/projects/le-top-100"
+      "/projects/le-top-100",
+      "/projects/butler"
     ]
   }
 };

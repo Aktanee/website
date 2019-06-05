@@ -46,6 +46,7 @@
       </div>
 
       <div class="info-single description">
+        <!-- eslint-disable-next-line vue/no-v-html -->
         <div class="content" v-html="project.description" />
       </div>
 
@@ -123,7 +124,7 @@ export default {
 <style lang="scss" scoped>
 .project {
   overflow: auto;
-  margin: 60px 0 0 0;
+  margin: 0;
 }
 
 .info-single,
