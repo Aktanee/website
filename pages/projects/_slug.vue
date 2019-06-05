@@ -124,7 +124,7 @@ export default {
 <style lang="scss" scoped>
 .project {
   overflow: auto;
-  margin: 60px 0 0 0;
+  margin: 0;
 }
 
 .info-single,
